@@ -112,6 +112,7 @@ header {
   font-weight: 500;
   font-size: 1rem;
   transition: all 0.5s;
+  margin-top: 2rem;
 }
 
 .header-bottom-side-left button:hover {
@@ -249,4 +250,17 @@ main {
 
 .product-price sapn {
   font-weight: 600;
+}
+
+.exclusive-container {
+  color: #fff;
+  flex-direction: row-reverse;
+  padding: 5rem 1rem;
+}
+
+.exclusive-container img {
+  max-width: 500px;
+}
+.exclusive-container button {
+  margin-top: 2rem;
 }
