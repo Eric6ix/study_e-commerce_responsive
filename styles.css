@@ -229,12 +229,14 @@ main {
   border-radius: 9999px;
   margin: 8px auto 0 auto;
 }
+
 .product {
   color: #2c2c2c;
   margin-bottom: 1rem;
   display: flex;
   flex-direction: column;
 }
+
 .product-name {
   font-weight: 600;
   margin-top: 0.4rem;
@@ -244,6 +246,7 @@ main {
   color: #0084ff;
   font-size: 1.3rem;
 }
+
 .product-price sapn {
   font-weight: 600;
 }
