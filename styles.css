@@ -264,3 +264,150 @@ main {
 .exclusive-container button {
   margin-top: 2rem;
 }
+
+/* Mein Content */
+@media (max-widtt: 800px) {
+  .section-title {
+    font-size: 1rem;
+  }
+
+  .cols-3 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .cols-4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .product-name,
+  .product-price,
+  .rate {
+    max-width: 1rem;
+    overflow: hidden;
+    font-size: 0.8rem;
+  }
+
+  .exclusive-container {
+    flex-direction: column-reverse;
+  }
+
+  .exclusive-container img {
+    margin-bottom: 4rem;
+  }
+}
+/* Main Content */
+
+/* Testimonials */
+.testimonials {
+  display: flex;
+  padding: 4rem 1rem;
+  justify-content: space-between;
+}
+
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 30%;
+  text-align: center;
+  box-shadow: 0 0 15px #afafaf;
+  padding: 1rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.testimonials:hover {
+  transform: translateY(-5px);
+}
+
+.testimonials p {
+  margin: 5px 0;
+}
+
+.testimonials p:first-child {
+  font-weight: bold;
+  font-size: 5rem;
+  color: #0084ff;
+  margin-top: 3rem;
+  line-height: 2rem;
+}
+
+.testimonials p:last-child {
+  font-weight: bold;
+}
+
+/* Media queries */
+@media (max-width: 800px) {
+  .testimonials {
+    flex-direction: column;
+  }
+
+  .testimonials {
+    margin-bottom: 1.2rem;
+  }
+}
+
+/* footer */
+.footer-content {
+  display: flex;
+  align-items: center;
+  color: #8f8f8f;
+  padding: 4rem 1rem;
+  gap: 2rem;
+}
+.download-opitons > * {
+  margin: 1rem 0;
+}
+.download-opitons > p:first-child {
+  font-weight: bold;
+  color: #fff;
+}
+.download-opitons > div img {
+  width: 180px;
+}
+.logo-footer {
+  text-align: center;
+}
+.links-footer h2 {
+  color: #fff;
+  margin-bottom: 0.8rem;
+}
+.links-footer ul {
+  list-style: none;
+}
+.links-footer ul il {
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+
+.copyright{
+  color: #fff;
+  padding:  2rem 0;
+  text-align: center;
+
+}
+
+/* Media queries */
+@media (max-width: 800px) {
+  .footer-content>div{
+    display: inline;
+    font-size: 0.8rem;
+  }
+  .footer-content> div{
+    padding: 1rem;
+  }
+  .download-opitons>div{
+    display: inline;
+  }
+  .download-opitons>div{
+    width: 120px;
+  }
+  .copyright{
+    font-size: 0.8rem;
+  }
+}
+
+
+/* footer */
